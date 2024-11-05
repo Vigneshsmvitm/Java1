@@ -1,3 +1,4 @@
+package pkg1;
 import java.util.Scanner;
 public class M3 {
     public static void reverse(String s1)
