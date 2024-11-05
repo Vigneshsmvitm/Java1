@@ -15,7 +15,7 @@ public static void main(String[] args) {
         }
         sc1.close();
     } catch (FileNotFoundException e) {
-        System.out.println("The file 'names.txt' was not found.");
+        System.out.println("The file 'namess.txt' was not found.");
         e.printStackTrace();
     }
 }
