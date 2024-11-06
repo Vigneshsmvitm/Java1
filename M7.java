@@ -1,5 +1,5 @@
 package pkg2;
-import pkg2.Tools2;
+
 class Tools2
 {
     String s1=" ";
