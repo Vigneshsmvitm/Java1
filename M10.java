@@ -7,7 +7,7 @@ public class M10 {
 
     public static void main(String[] args) {
         try {
-            File f1 = new File("C:\\Users\\User\\IdeaProjects\\P1\\src\\namess.txt");
+            File f1 = new File("src/namess.txt");
             Scanner sc1 = new Scanner(f1);
             Tools1 t1 = new Tools1();
             while (sc1.hasNextLine()) {
