@@ -8,15 +8,15 @@ public class M9 {
     public static void main(String[] args) {
         try {
 
-            File f1 = new File("C:\\Users\\User\\IdeaProjects\\P1\\src\\namess.txt");
+             File f1 = new File("src/namess.txt");
             Scanner sc1 = new Scanner(f1);
             Tools1 t1 = new Tools1();
-            for (int i = 0; i < 6 && sc1.hasNextLine(); i++) {
+            for (; sc1.hasNextLine(); ) 
+            {
                 String name = sc1.nextLine();
                 System.out.println(t1.reverse(name));
             }
             sc1.close();
-
         } catch (FileNotFoundException e) {
             System.out.println("The file 'namess.txt' was not found.");
             e.printStackTrace();
