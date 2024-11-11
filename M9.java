@@ -11,7 +11,7 @@ public class M9 {
              File f1 = new File("src/namess.txt");
             Scanner sc1 = new Scanner(f1);
             Tools1 t1 = new Tools1();
-            for (; sc1.hasNextLine(); ) 
+            for (int i = 0; sc1.hasNextLine(); i++)
             {
                 String name = sc1.nextLine();
                 System.out.println(t1.reverse(name));
